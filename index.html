@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <title>Country Details</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="darkmode.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1><a href="/">Where in the world?</a></h1>
+            <div class="switcher">
+                <i></i>
+                <h4><span class="dark">Dark Mode</span><span class="light">Light Mode</span></h4>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="maincontent">
+            <div class="cardsAll">
+                <div class="searchFilter">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="searchInput" type="text" placeholder="Search for a country...">
+                    </div>
+                    <select class="filter">
+                        <option hidden>Filter by Region</option>
+                        <option value="Africa">Africa</option>
+                        <option value="America">America</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Oceania">Oceania</option>
+                    </select>
+                </div>
+                <div class="countries-container"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

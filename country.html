@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <title>Country Detain</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="darkmode.js" defer></script>
+    <script src="country.js" defer></script>
+</head>
+
+<style>
+    @media (min-width: 768px) {
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            /* Disable scrolling */
+        }
+
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <h1><a href="/">Where in the world?</a></h1>
+            <div class="switcher">
+                <i></i>
+                <h4><span class="dark">Dark Mode</span><span class="light">Light Mode</span></h4>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="maincontent">
+            <a class="backbtn" onclick="history.back()">
+                <i class="fa-solid fa-arrow-left"></i>
+                <span>Back</span>
+            </a>
+        </div>
+    </main>
+</body>
+
+</html>
